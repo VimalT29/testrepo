@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.imageContainer {
+  float: left;
+  height: 0;
+  padding-bottom: 33.33%;
+  position: relative;
+  width: 50%;
+}
+
+@media all and (max-width: 480px) {
+  .imageContainer {
+    padding-bottom: 66.67%;
+    width: 100%;
+  }
+}
+
+svg,
+.image {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.image {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.image--displayed {
+  opacity: 1;
+}
+
+.image1 {
+  background-image: url(/images/nathan-mcbride-229639.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url(/images/joey-pilgrim-251356.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url(/images/john-cobb-13961.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.image4 {
+  background-image: url(/images/jakub-dziubak-394720.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.image5 {
+  background-image: url(/images/jakub-dziubak-394720.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.image6 {
+  background-image: url(/images/jakub-dziubak-394720.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
